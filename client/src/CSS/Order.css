@@ -1,5 +1,5 @@
 .ordercard{
-    border:2px solid rgb(249, 250, 249);
+    border:2px solid rgb(243, 247, 243);
     width: 100%;
     background: #ffff;
     color: black;
@@ -24,11 +24,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid rgb(89, 0, 255); */
     width: 50%;
 }
 .order_data{
-    border:3px solid rgb(255, 251, 251);
+    /* border:3px solid rgb(196, 25, 25); */
     width: 100%;
     /* margin-bottom: 10px;  */
     background: rgba(0, 0, 0, 0.4);
@@ -37,12 +37,13 @@
    
 }
 .Order_conatiner{
-    border: 5px solid greenyellow;
+    /* border: 5px solid greenyellow; */
     height: 85vh;
     overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     /* overflow: visible; */
 }
 
@@ -51,15 +52,23 @@
     width: 100%;
 }
 .order_main{
-    border: 1px solid rgb(247, 241, 241);
+    /* border: 1px solid rgb(17, 20, 235); */
     margin: auto;
     padding: 10px;
     background: 0,0,0,0.5;
     border-radius: 20px;
+    width: 100%;
 }
 @media screen and (min-width:300px) and (max-width:750px) {
     .order_main{
-        width: 100%;
+        width: 60%;
         padding: 0px;
+        margin: auto;
+    }
+    .category_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
     }
 }

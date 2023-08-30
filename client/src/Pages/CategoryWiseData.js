@@ -5,8 +5,11 @@ import axios from "axios";
 import { useParams,navigate, useNavigate } from "react-router-dom";
 import '../CSS/Category.css'
 import Loading from "./AuthUSer/Loading";
+import { useCart } from "../Context/Cart";
+import toast from "react-hot-toast";
 const CategoryWiseData = () => {
   const params = useParams();
+  const [cart, setCart] = useCart();
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -43,7 +46,7 @@ const CategoryWiseData = () => {
           <Loading />
         </div>
       )}
-      <div className="container" >
+      <div className="category_data" >
         <h1 className="reg_h1">Category {category?.name}</h1>
         <h5>{products?.length} results found</h5>
       
@@ -79,6 +82,14 @@ const CategoryWiseData = () => {
                     </button>
                     <button
                       className="btn btn-dark ms-1"
+                      onClick={() => {
+                        setCart([...cart, p]);
+                        localStorage.setItem(
+                          "cart",
+                          JSON.stringify([...cart, p])
+                        );
+                        toast.success("Item Added to cart");
+                      }}
                       
                     >
                       ADD TO CART

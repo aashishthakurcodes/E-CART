@@ -103,7 +103,7 @@ const Register = () => {
 
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
-             What is your Nickname
+             What's your favourite Sport
             </label>
             <input
               type="text"
@@ -113,7 +113,8 @@ const Register = () => {
               aria-describedby="emailHelp"
               required
               onChange={(e) => setanswer(e.target.value)}
-              placeholder="Remember it in case of forget password"
+              placeholder="Answer"
+              
             />
           </div>
 

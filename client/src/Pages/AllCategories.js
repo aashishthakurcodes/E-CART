@@ -12,14 +12,14 @@ const AllCategories = () => {
   const [loading, setLoading] = useState(false);
   return (
     <Layout title={"All Categories"}>
-      {loading && (
+      
+      <div className="cat_cont">
+        <h1>All Categories</h1>
+        {loading && (
         <div className="loading-container">
           <Loading />
         </div>
       )}
-      <div className="cat_cont">
-        <h1>All Categories</h1>
-       
         <div className="cat_section">
           {categories.map((c) => (
             <div className="cat_main" key={c._id}>

@@ -69,7 +69,7 @@ const CartPage = () => {
       setLoading(false);
       localStorage.removeItem("cart");
       setCart([]);
-      navigate("/dashboard/user/orders");
+      navigate("create-product/order");
       toast.success("Payment Completed Successfully ");
     } catch (error) {
       // console.log(error);
@@ -78,7 +78,7 @@ const CartPage = () => {
   };
   return (
     <Layout>
-      <div className="container">
+      <div className="container  cartPg">
         <div className="row">
           <div className="col-md-12">
             <h1 className="text-center reg_h1 p-2 mb-1">
@@ -132,7 +132,7 @@ const CartPage = () => {
                   <h5>{auth?.user?.address}</h5>
                   <button
                     className="btn btn-outline-warning"
-                    onClick={() => navigate("/dashboard/user/profile")}
+                    onClick={() => navigate("create-category/profile")}
                   >
                     Update Address
                   </button>

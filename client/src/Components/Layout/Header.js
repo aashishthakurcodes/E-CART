@@ -65,9 +65,10 @@ useEffect(()=>{
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle text-white"
                   to={"/categories"}
                   data-bs-toggle="dropdown"
+                  
                 >
                   Categories
                 </Link>

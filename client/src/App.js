@@ -36,6 +36,8 @@ function App() {
         <Route path="/categories" element={<AllCategories />} />
         <Route path="/category/:slug" element={<CategoryWiseData />} />
         <Route path="/cart/order" element={<Order/>} />
+        <Route path="/cart/create-category/profile" element={<Profile/>} />
+        <Route path="/cart/create-product/order" element={<Order/>} />
         {/* //NestedcRoutes */}
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="user" element={<Dashboard />} />
