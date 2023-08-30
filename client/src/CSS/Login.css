@@ -1,0 +1,17 @@
+.login_cont{
+    /* border: 2px solid red; */
+    
+}
+.login{
+    /* border: 2px solid green; */
+    background: #1b1b1b;
+    height: 81vh;
+}
+.login_data{
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffff;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    padding: 45px 25px;
+    text-align: center;
+    box-shadow: 10px 10px 0px 0px rgba(255, 254, 254, 0.75);
+}

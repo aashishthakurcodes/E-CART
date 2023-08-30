@@ -1,0 +1,21 @@
+.container_update{
+    /* border: 2px solid red; */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+     margin-top: 10px;
+}
+.row_update{
+    border: 0.5px solid rgb(244, 244, 245);
+    border-radius:20px; 
+    padding: 10px;
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}

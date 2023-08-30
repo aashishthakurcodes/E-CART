@@ -1,0 +1,54 @@
+.cat_cont{
+    border: 0.5px solid rgb(255, 255, 255);
+    margin-top: 2px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cat_section{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column-reverse;
+    /* height: 50vh; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.cat_main{
+    border: 2px solid blue;
+    margin: 10px;
+    display: flex;
+    /* width: 15%; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cat_box{
+    border: 2px solid pink;
+    height: 100px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cat_box:hover{
+    background: #e2e0e0;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.link{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    
+}
+.cat_cont h1{
+    font-family: "Playfair";
+    color: #ffff;
+}

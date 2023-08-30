@@ -1,0 +1,31 @@
+
+.admin_order{
+    border: 2px solid red;
+}
+.container_data{
+    border: 2px solid rgb(188, 188, 192);
+    display: flex;
+    justify-content: center;
+
+}
+.row_order{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+/* adminOrderStyles.css */
+
+/* Responsive table */
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Table adjustments for small screens */
+  @media (max-width: 768px) {
+    .table th,
+    .table td {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  

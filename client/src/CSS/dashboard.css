@@ -1,0 +1,27 @@
+.dashboard{
+    border: 0.5px solid rgb(250, 248, 248);
+height: 85vh;
+display: flex;
+justify-content: center;
+gap: 30px;
+align-items: center;
+flex-direction: column;
+background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+color: #ffff;
+}
+.dashboard_cont{
+    border: 2px solid rgb(249, 255, 249);
+    background-color: rgba(0,0,0,.8);
+    border-radius: 20px;
+    color: #fff;
+
+}
+.username{
+    /* border: 2px solid blue; */
+    padding: 5px;
+}
+.userData{
+    border: 2px solid black;
+    margin: 20px 0px;
+    padding: 10px;
+}

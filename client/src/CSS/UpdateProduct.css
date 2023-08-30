@@ -1,0 +1,12 @@
+.uploadbtn{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.all_product{
+    /* border: 3px solid greenyellow; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
